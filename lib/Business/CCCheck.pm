@@ -454,7 +454,7 @@ Validation criteria are:
 	JCB		3		   16	   mod 10
 	JCB		2131, 1800	   15	   mod 10
 
-=head1 COPYRIGHT
+=head1 COPYRIGHT AND LICENSE
 
 Copyright 2001 - 2011, Michael Robinton E<lt>michael@bizsystems.comE<gt>
 
