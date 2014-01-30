@@ -9,6 +9,7 @@ Revision history for Perl extension Business::CCCheck
     - Fixed some pod errors
     - Changed COPYRIGHT section to COPYRIGHT AND LICENSE
       (so tools will see that it's there. Eg kwalitee)
+    - Specified license type as 'gpl' in metadata
 
 0.05 2012-08-06
     - correct type in old distro
