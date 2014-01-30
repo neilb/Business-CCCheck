@@ -16,8 +16,8 @@ Revision history for Perl extension Business::CCCheck
     - correct defective CC recognition for MC and Diners/Carte Blanche
 
 0.02 2001-04-19
-	- allow for calls to functions with undefined arguments.
-	- add CC_expired check
+    - allow for calls to functions with undefined arguments.
+    - add CC_expired check
 
 0.01 2001-02-26
     - initial release
