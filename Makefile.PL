@@ -16,12 +16,29 @@ WriteMakefile(
     AUTHOR       => 'Michael Robinton <michael@bizsystems.com>',
     META_MERGE   => {
         resources => {
+            bugtracker  => 'http://rt.cpan.org/Public/Dist/Display.html?Name=Business-CCCheck',
             repository => 'https://github.com/neilbowers/Business-CCCheck',
         },  
     },  
     PREREQ_PM    => {
-        'Test::More' => 0,
+        'Exporter'   => 0,
+        'strict'     => 0,
+        'warnings'   => 0,
     },
+
+    ($mm_ver >= 6.52
+        ? (CONFIGURE_REQUIRES => {
+                'ExtUtils::MakeMaker' => 6.30,
+          })
+        : ()
+    ),
+
+    ($mm_ver >= 6.64
+        ? (TEST_REQUIRES => {
+                'Test::More' => 0.88,
+          })
+        : ()
+    ),
 
     ($mm_ver >= 6.48
         ? (MIN_PERL_VERSION => 5.006)
