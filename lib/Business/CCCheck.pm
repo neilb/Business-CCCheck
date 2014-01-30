@@ -298,8 +298,6 @@ Performs a strict LUHN check on a credit card number,
 and returns true if the number has a valid check digit,
 false otherwise.
 
-=back
-
 =cut
 
 # generic id of credit card number
@@ -455,24 +453,6 @@ Validation criteria are:
 
 	JCB		3		   16	   mod 10
 	JCB		2131, 1800	   15	   mod 10
-
-=item EXPORT_OK
-
-	@CC_months
-	CC_clean
-	CC_digits
-	CC_oldtype
-	CC_parity
-	CC_typGeneric
-	CC_typDetail
-	CC_format
-	CC_year
-	CC_gen_date
-	CC_is_name
-	CC_is_addr
-	CC_is_zip
-	CC_expired
-
 
 =head1 COPYRIGHT
 

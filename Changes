@@ -6,6 +6,7 @@ Revision history for Perl extension Business::CCCheck
     - moved CCCheck.pm into lib/Business/
     - Added new function CC_luhn_valid() which does a strict LUHN check
     - Added README
+    - Fixed some pod errors
 
 0.05 2012-08-06
     - correct type in old distro
