@@ -1,6 +1,7 @@
 Revision history for Perl extension Business::CCCheck
 
-0.06 ????-??-??
+0.06 2014-01-30
+    - Min perl version 5.6.0
     - Reformatted this file (Changes) according to CPAN::Spec::Changes
     - moved CCCheck.pm into lib/Business/
     - Added new function CC_luhn_valid() which does a strict LUHN check
