@@ -3,6 +3,7 @@ Revision history for Perl extension Business::CCCheck
 0.07 2014-02-02
     - Added strict and warnings to Business::CCCheck::CardID
     - Added VERSION to Business::CCCheck::CardID
+    - Change pod section to COPYRIGHT AND LICENSE as is usual
 
 0.06 2014-01-30
     - Min perl version 5.6.0
