@@ -6,6 +6,11 @@
 
 package Business::CCCheck::CardID;
 
+use strict;
+use warnings;
+
+our $VERSION = '0.07';
+
 use vars qw(
 	@ISA
 	@EXPORT
