@@ -46,7 +46,7 @@ WriteMakefile(
     ),
 
     ($mm_ver >= 6.31
-        ? (LICENSE => 'gpl')
+        ? (LICENSE => 'gpl_2')
         : ()
     ),
 
