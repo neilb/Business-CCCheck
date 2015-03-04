@@ -238,8 +238,8 @@ Returns the localtime calendar year.
 
 =item $scalar = CC_expired(numeric_month,20xx)
 
-Returns true if card is expired or 
-month year has bad fromat else false
+Returns B<false> if the arguments comprise a valid future date.  Otherwise it
+returns B<true>.
 
 =item $scalar = CC_is_zip(zipcode);
 
