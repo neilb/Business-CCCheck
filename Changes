@@ -1,5 +1,8 @@
 Revision history for Perl module Business::CCCheck
 
+0.10 2015-10-29 NEILB
+    - Updated github repo URL after changing my github username
+
 0.09 2014-02-05
     - Metadata wasn't explicitly saying v2 of GPL
     - Still wasn't quite the right text for GPL v2.

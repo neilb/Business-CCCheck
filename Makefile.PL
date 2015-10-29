@@ -17,7 +17,7 @@ WriteMakefile(
     META_MERGE   => {
         resources => {
             bugtracker  => 'http://rt.cpan.org/Public/Dist/Display.html?Name=Business-CCCheck',
-            repository => 'https://github.com/neilbowers/Business-CCCheck',
+            repository => 'https://github.com/neilb/Business-CCCheck',
         },  
     },  
     PREREQ_PM    => {
